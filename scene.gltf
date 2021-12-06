@@ -1,0 +1,237 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 16359,
+      "max": [
+        9.200675964355469,
+        0.336639404296875,
+        11.317497253417969
+      ],
+      "min": [
+        -11.209915161132813,
+        -5.166309356689453,
+        -11.252574920654297
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 196308,
+      "componentType": 5126,
+      "count": 16359,
+      "max": [
+        0.9997147917747498,
+        0.9999982714653015,
+        0.999936580657959
+      ],
+      "min": [
+        -0.9996675848960876,
+        -0.9999997019767761,
+        -0.9999846816062927
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 16359,
+      "max": [
+        1.0,
+        0.9999995231628418,
+        0.9986957311630249,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9999982714653015,
+        -0.9577081799507141,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 16359,
+      "max": [
+        0.993503987789154,
+        0.9975579977035522
+      ],
+      "min": [
+        0.002440999960526824,
+        0.007400999777019024
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 74988,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Thomas Flynn (https://sketchfab.com/nebulousflynn)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/3d-models/oak-leaf-cookie-af0143f8e92948d6aded2057e796c0da",
+      "title": "Oak Leaf Cookie"
+    },
+    "generator": "Sketchfab-11.71.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 299952,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 130872,
+      "byteOffset": 299952,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 392616,
+      "byteOffset": 430824,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 261744,
+      "byteOffset": 823440,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1085184,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Oak_Leaf_Cookie_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Oak_Leaf_Cookie_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Oak_Leaf_Cookie_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Oak_Leaf_Cookie",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.1,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.0018772128556777123,
+        -5.577103140356191e-06,
+        -0.0015860367231525507,
+        0.0,
+        -2.542632393677047e-05,
+        0.0024570969255665875,
+        -3.8734349777397806e-05,
+        0.0,
+        0.0015858427830698352,
+        4.5997215450543155e-05,
+        0.001876821459982081,
+        0.0,
+        0.28792116045951843,
+        2.5534965991973873,
+        1.5283925533294684,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "Oak_Leaf_Cookie.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
